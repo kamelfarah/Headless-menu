@@ -10,7 +10,7 @@ function classNames(...classes) {
 function Navbar() {
     return (
         <div className='w-full text-white h-20 flex justify-between items-center px-8'>
-            <div className='h-20 w-20 cursor-default'>
+            <div className='h-20 w-20 lg:visible invisible cursor-default'>
                 <img src={banking} alt="" />
             </div>
             <ul className='flex items-center'>
